@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(".loader").fadeOut(2000, () => {
+    $(".loader").fadeOut(1500, () => {
         if ($('.Advertising').length) {
             $(".Advertising").addClass("d-flex");
         }
