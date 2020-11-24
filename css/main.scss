@@ -550,6 +550,7 @@
     
     .w-70 {
         width: 70% !important;
+        vertical-align: middle;
     }
     
     input {
@@ -1086,4 +1087,34 @@
     
     select {
         background: #fff !important;
+    }
+    
+    @media(min-width:767px)and(max-width:768px) {
+        .w-70 {
+            width: 73% !important;
+            width: 72% !important;
+            display: flex;
+            align-items: center;
+            vertical-align: middle !important;
+        }
+        .title-dev {
+            font-size: 15px !important;
+        }
+        .al-list {
+            li {
+                font-size: 14px !important;
+            }
+        }
+    }
+    
+    .nav-link {
+        select {
+            border: none !important;
+            border-bottom: 1px solid $main_color !important;
+            border-radius: 0px !important;
+            -webkit-border-radius: 0px !important;
+            -moz-border-radius: 0px !important;
+            -ms-border-radius: 0px !important;
+            -o-border-radius: 0px !important;
+        }
     }
