@@ -690,6 +690,7 @@
         position: fixed;
         bottom: 5px;
         left: 5px;
+        z-index: 4444;
         cursor: pointer;
         border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -1077,4 +1078,12 @@
         .mop {
             display: block !important;
         }
+    }
+    
+    select {
+        background: #fff !important;
+    }
+    
+    select {
+        background: #fff !important;
     }
